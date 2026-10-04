@@ -160,6 +160,7 @@
   fill: #ffffff;
 }
 
+/* Tablet: >= 768px */
 @media screen and (min-width: 768px) {
   .footer-container {
     flex-direction: row;
@@ -193,6 +194,7 @@
   }
 }
 
+/* Desktop: >= 1158px */
 @media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
@@ -200,6 +202,7 @@
 
   .footer-container {
     padding-left: 15px;
+    padding-right: 15px;
     gap: 0;
   }
 
