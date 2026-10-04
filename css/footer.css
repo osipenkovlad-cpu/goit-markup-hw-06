@@ -54,6 +54,7 @@
 
 .footer-social-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -168,7 +169,7 @@
     align-items: baseline;
     column-gap: 24px;
     row-gap: 72px;
-    padding-left: 108px;
+    max-width: 584px;
   }
 
   .footer-info {
@@ -177,6 +178,10 @@
 
   .footer-social {
     text-align: left;
+  }
+
+  .footer-social-list {
+    justify-content: flex-start;
   }
 
   .footer-subscribe {
@@ -201,6 +206,7 @@
   }
 
   .footer-container {
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     gap: 0;
