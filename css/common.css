@@ -31,7 +31,8 @@ img {
   height: auto;
 }
 
-.visually-hidden {
+/* Утилітарний клас для візуально прихованого контенту */
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -44,6 +45,7 @@ img {
   overflow: hidden;
 }
 
+/* Адаптивний контейнер */
 .container {
   max-width: 320px;
   padding-left: 16px;

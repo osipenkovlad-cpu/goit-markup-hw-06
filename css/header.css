@@ -102,6 +102,7 @@
   .contacts {
     display: block;
     font-style: normal;
+    margin-left: auto;
   }
 
   .contacts-list {
